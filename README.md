@@ -2,7 +2,7 @@
 A custom captcha solver for the webgame called "MafiaensHevn"
 
 Using these two DNN there is no need for preprocessing, no color masking, convolution etc. This is achieved by creating a dataset
-where I mask out everything except the colors (using hue color masks) then an algorithm for finding the bounding boxes of each character
+where I mask out everything except the characters (using hue color masks) then an algorithm for finding the bounding boxes of each character
 with some arbitrary threshold for the minimum area then sending this information to a folder and a bbox.json file.
 
 <img style="height:10vw;" src="Graphics/ExampleCaptchaPreprocessed.png"></img>
