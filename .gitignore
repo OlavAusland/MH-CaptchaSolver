@@ -1,3 +1,8 @@
+#folders
+annotated/
+characters/
+bbox/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
