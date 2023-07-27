@@ -23,3 +23,13 @@ bounding box for each characters per image to a .json file.
 
 # Character Prediction Model
 ![BoundingBoxPredictionModel](Graphics/character_model.png)
+
+## Project Structure
+### Example.py
+Example file on how to use the two prediction models together to sucessfully predict and output the final prediction
+
+### DNN.py
+File for handling everything from loading the dataset, creating and training the individual model.
+
+### CreateCharacterDataset.py
+File for creating the character dataset which populates the 'character' folder of individual characters.
