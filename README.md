@@ -26,7 +26,7 @@ bounding box for each characters per image to a .json file.
 
 ## Project Structure
 #### CaptchaSolver.py
-This si a script which takes in a path ('--path') to an image and outputs a prediction. It has a '--verbose' option which gives outputs more information about each prediction step.
+This si a script which takes in a path ('--path') to an image and outputs a prediction. It has a '--verbose' option which outputs more information about each prediction step.
 
 #### Example.py
 Example file on how to use the two prediction models together to sucessfully predict and output the final prediction
